@@ -4,7 +4,7 @@ body {
   font-family: Helvetica;
 }
 
-.topimage {
+#topimage {
   background-image: url("../images/the-flatiron-building.png");
   background-size: 100% 100%;
 }
@@ -15,10 +15,15 @@ h1 {
   color: white;
 }
 
-.topimage a {
+#topimage a {
   font-size: 18px;
   font-weight: bold;
   color: white;
+}
+
+#topimage li {
+  list-style-type: none;
+  line-height: 200%;
 }
 
 h2 {
@@ -48,4 +53,8 @@ p {
   text-align: left;
   color: white;
   background-color: dimgray;
+}
+
+#footdetail a {
+  color: white;
 }
